@@ -23,3 +23,18 @@ while(count>0){
     console.log(count);
     count--;
 }
+
+// is prime
+let n = 12349;
+let isPrime = true;
+
+for(let i=2;i<=n;i++){
+    if(n%i==0){
+        isPrime = false;
+    }
+}
+if(isPrime == true){
+    console.log("Number is prime");
+}else{
+    console.log("Number is not prime");
+}
